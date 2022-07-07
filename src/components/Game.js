@@ -15,7 +15,9 @@ const Game = ({MyChoice, score, setscore}) =>{
         newHousepick();
     }, [])
     
-    function Result()
+    
+    useEffect(() =>{
+        function Result()
     {
         if (MyChoice === 'rock' && House === 'scissors')
         {
@@ -52,7 +54,6 @@ const Game = ({MyChoice, score, setscore}) =>{
             setplayerWin('draw');
         }
     }
-    useEffect(() =>{
         const timer= Counter>0 ? setInterval( () =>{
             setCounter(Counter-1)
         }, 1000) : Result();
@@ -60,7 +61,7 @@ const Game = ({MyChoice, score, setscore}) =>{
         return() =>{
             clearInterval(timer);
         }
-    }, [Counter,House])
+    }, [Counter, House, MyChoice, score, setscore])
     return(
         <div className='game'>
             <div className='game-you'>
