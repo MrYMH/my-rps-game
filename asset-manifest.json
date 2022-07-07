@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-rps-game.io/static/css/main.b676f00a.css",
-    "main.js": "/my-rps-game.io/static/js/main.a62ff10f.js",
+    "main.js": "/my-rps-game.io/static/js/main.e65d6520.js",
     "static/js/787.8ac135ba.chunk.js": "/my-rps-game.io/static/js/787.8ac135ba.chunk.js",
     "static/media/logo.svg": "/my-rps-game.io/static/media/logo.a4a2b39fefcdb6a1a8088c4dba8f3d93.svg",
     "static/media/image-rules.svg": "/my-rps-game.io/static/media/image-rules.258b753fb6284dc8ae00c5b2fa7938c0.svg",
@@ -12,11 +12,11 @@
     "static/media/icon-close.svg": "/my-rps-game.io/static/media/icon-close.bde602ecd1a4e55e0c27137ed651e027.svg",
     "static/media/bg-triangle.svg": "/my-rps-game.io/static/media/bg-triangle.c0c30b562fdb087666594c1bc0d512f6.svg",
     "main.b676f00a.css.map": "/my-rps-game.io/static/css/main.b676f00a.css.map",
-    "main.a62ff10f.js.map": "/my-rps-game.io/static/js/main.a62ff10f.js.map",
+    "main.e65d6520.js.map": "/my-rps-game.io/static/js/main.e65d6520.js.map",
     "787.8ac135ba.chunk.js.map": "/my-rps-game.io/static/js/787.8ac135ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b676f00a.css",
-    "static/js/main.a62ff10f.js"
+    "static/js/main.e65d6520.js"
   ]
 }
